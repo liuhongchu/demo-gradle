@@ -1,4 +1,4 @@
-package com.example.demogradle;
+package com.example.demogradle.demogradle;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

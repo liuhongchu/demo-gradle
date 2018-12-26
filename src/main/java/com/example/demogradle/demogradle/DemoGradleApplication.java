@@ -1,9 +1,11 @@
-package com.example.demogradle;
+package com.example.demogradle.demogradle;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+@ComponentScan("com.example")
 public class DemoGradleApplication {
 
    public static void main(String[] args) {
